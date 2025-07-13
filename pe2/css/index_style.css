@@ -1,0 +1,153 @@
+.club-info {
+    position: relative; 
+    text-align: center;
+    padding: 10px 0px; 
+    background-image: url('../imagenes/imagen_club.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: black; 
+    z-index: 1; 
+}
+
+.club-info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75); 
+    z-index: -1; 
+}
+
+.club-info h1 {
+    font-size: 2.2rem;
+    color: #006633; 
+    margin-bottom: 10px;
+}
+
+.club-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 900px; 
+}
+
+.zona-beige {
+    background-color: #f5f5dc;
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.carrusel-actividades {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrusel-fondo {
+    width: 80vw;
+    min-height: 220px;
+    margin: 0 auto 10px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7); /* halo blanco translúcido */
+    overflow: hidden;
+}
+
+.carrusel-fondo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.55); 
+    z-index: 1;
+    border-radius: 32px;
+    pointer-events: none;
+}
+
+.carrusel-info {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+
+.carrusel-info h3 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #006633;
+}
+
+.carrusel-info p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.carrusel-info p:hover {
+    color: #006633;
+}
+
+@media (max-width: 768px) {
+    .top-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .top-header form {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .club-info {
+        padding: 10px;
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .top-header img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .top-header form input,
+    .top-header form button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .top-header form label {
+        width: 100%;
+    }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Mabilia Stella Rinelli Padron">
+        <meta name="description" content="Documento de Conoce Club del Club Deportivo">
+
+        <title>Conoce Nuestro Club | Bounce Nation</title>
+        
+        <!-- Logo en la pestaña -->
+        <link rel="icon" href="imagenes/logo_cuadrado.png" type="image/x-icon">
+        
+        <!-- Enlace a CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header_footer_style.css">
+        <link rel="stylesheet" href="css/conoce_club_style.css">
+
+    </head>
+    <body>
+        <header>
+            <section class="top-header">
+                <!-- Logo del club -->
+                <a href="index.html">
+                    <img src="imagenes/logo_extendido.png" alt="Logo Club Deportivo Bounce Nation" />
+                </a>
+
+                <!-- Formulario de inicio de sesión -->
+                <form action="login.php" method="post">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Entrar</button>
+
+                    <!-- Enlace para alta de usuarios -->
+                    <a href="altausuarios.html" style="margin-left: 20px;">Nuevo Usuario</a>
+                </form>
+
+            </section>
+
+            <!-- Menu de navegacion -->
+            <nav>
+                <ul style="list-style: none; padding: 0; display: flex; gap: 15px;">
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="actividades.php">Actividades</a></li>
+                    <li><a href="conoce_club.html">Conoce Nuestro Club</a></li>
+                    <li><a href="eventos.html">Eventos Deportivos</a></li>
+                    <li><a href="informacion.html">Información General</a></li>
+                    <li><a href="sugerencias.html">Sugerencias</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2 id="titulo">Conoce Nuestro Club</h2>
+            <!-- Sección del plano general -->
+            <h3>Plano General del Club</h3>
+            <section class="plano-general">
+                <img src="imagenes/plano_general.png" alt="Plano general del club" class="plano-img">
+                <article class="plano-descripcion">
+                <p>
+                    Nuestro club se extiende por más de 10,000 m², brindando amplias zonas para la práctica de tus disciplinas favoritas, ya sea de forma recreativa o competitiva.
+                    Contamos con instalaciones de primer nivel: 
+                <br></p>
+                <ul>
+                    <li><strong>Campo de césped artificial (fútbol 11):</strong> Ideal para torneos, entrenamientos o partidos entre amigos, con medidas profesionales y mantenimiento constante.</li>
+                    <li><strong>Campo de béisbol:</strong> Perfecto para jugadores y ligas de todos los niveles. Disfruta de un diamante con excelente visibilidad y zonas de seguridad.</li>
+                    <li><strong>2 canchas de voleibol:</strong> Superficies firmes, delimitadas y listas para juegos dinámicos tanto al aire libre como bajo el sol.</li>
+                    <li><strong>3 canchas de baloncesto:</strong> Con suelos de alta resistencia, marcaciones reglamentarias y amplio espacio para partidos o prácticas.</li>
+                </ul>
+                <p>
+                    Además, el club está rodeado de senderos, áreas verdes y zonas de descanso que invitan al bienestar y al encuentro social.
+                    ¡Inscríbete hoy y vive el deporte al máximo en Bounce Nation!
+                </p>
+                </article>
+            </section>
+
+            <section class="instalaciones">
+                <h4><a href="actividades_futbol.html">Fútbol</a></h4>
+                <article class="deporte">
+                    <p>
+                        El deporte rey por excelencia. El fútbol no solo mejora tu condición física, coordinación y resistencia, sino que también fortalece el trabajo en equipo y la estrategia. En nuestro campo de césped artificial, vivirás partidos emocionantes con el mejor agarre y comodidad, sin importar el clima. 
+                    <br><br>
+                        Contamos con iluminación nocturna y graderías para espectadores, ideales para partidos y torneos locales. Además, se ofrecen clases y entrenamientos para todas las edades, desde principiantes hasta niveles competitivos.
+                    </p>
+                    <img src="imagenes/plano_futbol.png" alt="Plano de la pista de fútbol">
+                </article>
+
+                <h4><a href="actividades_beisbol.html">Béisbol</a></h4>
+                <article class="deporte">
+                    <p>
+                        Un deporte lleno de precisión, velocidad y táctica. El béisbol es perfecto para desarrollar reflejos, concentración y espíritu de equipo. Nuestro diamante está diseñado para que tanto aficionados como jugadores experimentados disfruten cada lanzamiento, batazo y jugada. 
+                    <br><br>
+                        Las instalaciones incluyen áreas de bateo techadas, marcador electrónico y vestuarios totalmente equipados. Se organizan ligas juveniles y entrenamientos técnicos con entrenadores certificados.
+                    </p>
+                    <img src="imagenes/plano_beisbol.png" alt="Plano de la pista de beisbol">
+                </article>
+
+                <h4><a href="actividades_voleibol.html">Voleibol</a></h4>
+                <article class="deporte">
+                    <p>
+                        Ágil, dinámico y divertido, el voleibol es ideal para quienes buscan mejorar su coordinación, rapidez y comunicación. Ya sea en partidos recreativos o competencias, nuestras canchas dobles están listas para recibir a jugadores de todos los niveles. 
+                    <br><br>
+                        El suelo de goma antideslizante y las redes ajustables aseguran una experiencia segura y profesional. También ofrecemos sesiones de entrenamiento, torneos mixtos y programas escolares.
+                    </p>
+                    <img src="imagenes/plano_voleibol.png" alt="Plano de la cancha de voleibol">
+                </article>
+
+                <h4><a href="actividades_baloncesto.html">Baloncesto</a></h4>
+                <article class="deporte">
+                    <p>
+                        Explosivo y estratégico, el baloncesto mejora la agilidad, la resistencia y la visión de juego. En nuestras dos canchas podrás practicar lanzamientos, jugadas y torneos en un espacio amplio, cómodo y preparado para la intensidad del juego. 
+                    <br><br>
+                        Disponemos de tableros profesionales, marcadores digitales y gradas para el público. Se imparten clases para niños, adolescentes y adultos, además de ligas internas y torneos comunitarios.
+                    </p>
+                    <img src="imagenes/plano_baloncesto.png" alt="Plano de la pista de baloncesto">
+                </article>
+            </section>            
+        </main>
+
+        <footer class="footer">
+            <p>Desarrollado por Mabilia Stella Rinelli Padron</p>
+            <p>Club Deportivo Bounce Nation</p>
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="como_se_hizo.pdf" target="_blank">Informe: Cómo se hizo</a></li>
+            </ul>
+        </footer>
+        <script src="js/mouse_follow.js"></script>
+        <script src="js/animacion_titulo.js"></script>
+    </body>
+</html>

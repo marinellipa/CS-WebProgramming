@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <META NAME = "author" CONTENT = "Mabilia Stella Rinelli Padron">
+        <META NAME = "description" CONTENT = "Documento de Informacion General del Club Deportivo">
+
+        <title>Informacion General | Bounce Nation</title>
+        
+        <!-- Logo en la pestaña -->
+        <link rel="icon" href="imagenes/logo_cuadrado.png" type="image/x-icon">
+        
+        <!-- Enlace a CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header_footer_style.css">
+        <link rel="stylesheet" href="css/informacion_style.css">
+
+    </head>
+    <body>
+        <header>
+            <section class="top-header">
+                <!-- Logo del club -->
+                <a href="index.html">
+                    <img src="imagenes/logo_extendido.png" alt="Logo Club Deportivo Bounce Nation" />
+                </a>
+
+                <!-- Formulario de inicio de sesión -->
+                <form action="login.php" method="post">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Entrar</button>
+
+                    <!-- Enlace para alta de usuarios -->
+                    <a href="altausuarios.html" style="margin-left: 20px;">Nuevo Usuario</a>
+                </form>
+
+            </section>
+
+            <!-- Menu de navegacion -->
+            <nav>
+                <ul style="list-style: none; padding: 0; display: flex; gap: 15px;">
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="actividades.php">Actividades</a></li>
+                    <li><a href="conoce_club.html">Conoce Nuestro Club</a></li>
+                    <li><a href="eventos.html">Eventos Deportivos</a></li>
+                    <li><a href="informacion.html">Información General</a></li>
+                    <li><a href="sugerencias.html">Sugerencias</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2 id="titulo">Información General</h2>
+            <section class="calendarios-grid">
+                <section class="calendario-marzo">
+                    <h3>Calendario de Marzo</h3>
+                    <table class="tabla-calendario">
+                        <thead>
+                            <tr>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miércoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                                <th>Sábado</th>
+                                <th>Domingo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="dia-semi">1</td>
+                                <td class="dia-cerrado">2</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">3</td>
+                                <td class="dia-abierto">4</td>
+                                <td class="dia-abierto">5</td>
+                                <td class="dia-abierto">6</td>
+                                <td class="dia-abierto">7</td>
+                                <td class="dia-semi">8</td>
+                                <td class="dia-cerrado">9</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">10</td>
+                                <td class="dia-abierto">11</td>
+                                <td class="dia-abierto">12</td>
+                                <td class="dia-abierto">13</td>
+                                <td class="dia-abierto">14</td>
+                                <td class="dia-semi">15</td>
+                                <td class="dia-cerrado">16</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">17</td>
+                                <td class="dia-abierto">18</td>
+                                <td class="dia-abierto">19</td>
+                                <td class="dia-abierto">20</td>
+                                <td class="dia-abierto">21</td>
+                                <td class="dia-semi">22</td>
+                                <td class="dia-cerrado">23</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">24</td>
+                                <td class="dia-abierto">25</td>
+                                <td class="dia-abierto">26</td>
+                                <td class="dia-abierto">27</td>
+                                <td class="dia-abierto">28</td>
+                                <td class="dia-semi">29</td>
+                                <td class="dia-cerrado">30</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">31</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            
+                <section class="calendario-abril">
+                    <h3>Calendario de Abril</h3>
+                    <table class="tabla-calendario">
+                        <thead>
+                            <tr>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miércoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                                <th>Sábado</th>
+                                <th>Domingo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td class="dia-abierto">1</td>
+                                <td class="dia-abierto">2</td>
+                                <td class="dia-abierto">3</td>
+                                <td class="dia-abierto">4</td>
+                                <td class="dia-semi">5</td>
+                                <td class="dia-cerrado">6</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">7</td>
+                                <td class="dia-abierto">8</td>
+                                <td class="dia-abierto">9</td>
+                                <td class="dia-abierto">10</td>
+                                <td class="dia-abierto">11</td>
+                                <td class="dia-semi">12</td>
+                                <td class="dia-cerrado">13</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-semi">14</td>
+                                <td class="dia-semi">15</td>
+                                <td class="dia-semi">16</td>
+                                <td class="dia-cerrado">17</td>
+                                <td class="dia-cerrado">18</td>
+                                <td class="dia-cerrado">19</td>
+                                <td class="dia-cerrado">20</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-semi">21</td>
+                                <td class="dia-abierto">22</td>
+                                <td class="dia-abierto">23</td>
+                                <td class="dia-abierto">24</td>
+                                <td class="dia-abierto">25</td>
+                                <td class="dia-semi">26</td>
+                                <td class="dia-cerrado">27</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">28</td>
+                                <td class="dia-abierto">29</td>
+                                <td class="dia-abierto">30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            
+                <section class="calendario-mayo">
+                    <h3>Calendario de Mayo</h3>
+                    <table class="tabla-calendario">
+                        <thead>
+                            <tr>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miércoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                                <th>Sábado</th>
+                                <th>Domingo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="dia-cerrado">1</td>
+                                <td class="dia-abierto">2</td>
+                                <td class="dia-semi">3</td>
+                                <td class="dia-cerrado">4</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">5</td>
+                                <td class="dia-abierto">6</td>
+                                <td class="dia-abierto">7</td>
+                                <td class="dia-abierto">8</td>
+                                <td class="dia-abierto">9</td>
+                                <td class="dia-semi">10</td>
+                                <td class="dia-cerrado">11</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">12</td>
+                                <td class="dia-abierto">13</td>
+                                <td class="dia-abierto">14</td>
+                                <td class="dia-abierto">15</td>
+                                <td class="dia-abierto">16</td>
+                                <td class="dia-semi">17</td>
+                                <td class="dia-cerrado">18</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">19</td>
+                                <td class="dia-abierto">20</td>
+                                <td class="dia-abierto">21</td>
+                                <td class="dia-abierto">22</td>
+                                <td class="dia-abierto">23</td>
+                                <td class="dia-semi">24</td>
+                                <td class="dia-cerrado">25</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">26</td>
+                                <td class="dia-abierto">27</td>
+                                <td class="dia-abierto">28</td>
+                                <td class="dia-abierto">29</td>
+                                <td class="dia-abierto">30</td>
+                                <td class="dia-semi">31</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            
+                <section class="calendario-junio">
+                    <h3>Calendario de Junio</h3>
+                    <table class="tabla-calendario">
+                        <thead>
+                            <tr>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miércoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                                <th>Sábado</th>
+                                <th>Domingo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="dia-cerrado">1</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">2</td>
+                                <td class="dia-abierto">3</td>
+                                <td class="dia-abierto">4</td>
+                                <td class="dia-abierto">5</td>
+                                <td class="dia-abierto">6</td>
+                                <td class="dia-semi">7</td>
+                                <td class="dia-cerrado">8</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">9</td>
+                                <td class="dia-abierto">10</td>
+                                <td class="dia-abierto">11</td>
+                                <td class="dia-abierto">12</td>
+                                <td class="dia-abierto">13</td>
+                                <td class="dia-semi">14</td>
+                                <td class="dia-cerrado">15</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">16</td>
+                                <td class="dia-abierto">17</td>
+                                <td class="dia-abierto">18</td>
+                                <td class="dia-abierto">19</td>
+                                <td class="dia-abierto">20</td>
+                                <td class="dia-semi">21</td>
+                                <td class="dia-cerrado">22</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">23</td>
+                                <td class="dia-abierto">24</td>
+                                <td class="dia-abierto">25</td>
+                                <td class="dia-abierto">26</td>
+                                <td class="dia-abierto">27</td>
+                                <td class="dia-semi">28</td>
+                                <td class="dia-cerrado">29</td>
+                            </tr>
+                            <tr>
+                                <td class="dia-abierto">30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+
+            <section class="leyenda">
+                <ul>
+                    <li><span class="color dia-abierto"></span>Apertura Completa</li>
+                    <li><span class="color dia-semi"></span>Apertura Sólo de Mañanas</li>
+                    <li><span class="color dia-cerrado"></span>Cierre del Club</li>
+                </ul>
+            </section>   
+
+            <!-- Horarios -->
+            <section class="horario-pistas">
+                <h3>Horario de las Pistas Deportivas</h3>
+                <table class="tabla-horarios">
+                    <thead>
+                        <tr>
+                            <th>Pista</th>
+                            <th>Lunes a Viernes</th>
+                            <th>Sábados</th>
+                            <th>Domingos y Festivos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Campo de Fútbol</td>
+                            <td>08:00 - 22:00</td>
+                            <td>09:00 - 20:00</td>
+                            <td>09:00 - 14:00</td>
+                        </tr>
+                        <tr>
+                            <td>Campo de Béisbol</td>
+                            <td>10:00 - 21:00</td>
+                            <td>10:00 - 18:00</td>
+                            <td>10:00 - 13:00</td>
+                        </tr>
+                        <tr>
+                            <td>Campo de Voleibol 1</td>
+                            <td>09:00 - 20:00</td>
+                            <td>10:00 - 18:00</td>
+                            <td>10:00 - 14:00</td>
+                        </tr>
+                        <tr>
+                            <td>Campo de Voleibol 2</td>
+                            <td>09:00 - 20:00</td>
+                            <td>10:00 - 18:00</td>
+                            <td>10:00 - 14:00</td>
+                        </tr>
+                        <tr>
+                            <td>Campo de Baloncesto 1</td>
+                            <td>08:00 - 22:00</td>
+                            <td>09:00 - 20:00</td>
+                            <td>09:00 - 14:00</td>
+                        </tr>
+                        <tr>
+                            <td>Campo de Baloncesto 2</td>
+                            <td>08:00 - 22:00</td>
+                            <td>09:00 - 20:00</td>
+                            <td>09:00 - 14:00</td>
+                        </tr>
+                        <tr>
+                            <td>Campo de Baloncesto 3</td>
+                            <td>10:00 - 20:00</td>
+                            <td>11:00 - 18:00</td>
+                            <td>11:00 - 14:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Precios -->
+            <section class="precios">
+                <h3>Precios de Matrícula</h3>
+                <table class="tabla-matricula">
+                    <thead>
+                        <tr>
+                            <th>Tipo de Matrícula</th>
+                            <th>Duración</th>
+                            <th>Precio (euros)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="4">Individual</td>
+                            <td>1 mes</td>
+                            <td>50,00</td>
+                        </tr>
+                        <tr>
+                            <td>3 meses</td>
+                            <td>140,00 (46,67 €/mes)</td>
+                        </tr>
+                        <tr>
+                            <td>6 meses</td>
+                            <td>270,00 (45,00 €/mes)</td>
+                        </tr>
+                        <tr>
+                            <td>12 meses</td>
+                            <td>500,00 (41,67 €/mes)</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="5">Familiar</td>
+                            <td>1 mes</td>
+                            <td>90,00</td>
+                        </tr>
+                        <tr>
+                            <td>3 meses</td>
+                            <td>250,00 (83,33 €/mes)</td>
+                        </tr>
+                        <tr>
+                            <td>6 meses</td>
+                            <td>480,00 (80,00 €/mes)</td>
+                        </tr>
+                        <tr>
+                            <td>12 meses</td>
+                            <td>900,00 (75,00 €/mes)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+ 
+            <section class="precios">
+                <h3>Precios por Espacio Concreto</h3>
+                <table class="tabla-precios">
+                    <thead>
+                        <tr>
+                            <th>ESPACIO</th>
+                            <th>CONCEPTO</th>
+                            <th>Precio público (euros)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- ACCESO GENERAL A LA INSTALACIÓN DEPORTIVA -->
+                        <tr>
+                            <td rowspan="6">ACCESO GENERAL A LA INSTALACIÓN DEPORTIVA</td>
+                            <td>Acceso anual</td>
+                            <td>20,00</td>
+                        </tr>
+                        <tr>
+                            <td>Acceso anual familiar</td>
+                            <td>40,00</td>
+                        </tr>
+                        <tr>
+                            <td>Acceso anual infantil (menores de 14 años)</td>
+                            <td>10,00</td>
+                        </tr>
+                        <tr>
+                            <td>Acceso semestral</td>
+                            <td>12,00</td>
+                        </tr>
+                        <tr>
+                            <td>Acceso semestral infantil (menores de 14 años)</td>
+                            <td>6,00</td>
+                        </tr>
+                        <tr>
+                            <td>Acceso diario a las Instalaciones Deportivas (día por persona)</td>
+                            <td>5,00</td>
+                        </tr>
+
+                        <!-- ALQUILER ESPACIOS DEPORTIVOS -->
+                        <tr>
+                            <td rowspan="5">ALQUILER ESPACIOS DEPORTIVOS</td>
+                            <td>Alquiler de Campo Tierra por hora antes de las 18.00 h</td>
+                            <td>34,00</td>
+                        </tr>
+                        <tr>
+                            <td>Alquiler de Campo Césped Artificial por hora antes de las 18.00 h</td>
+                            <td>36,00</td>
+                        </tr>
+                        <tr>
+                            <td>Bono 5 usos</td>
+                            <td>162,00</td>
+                        </tr>
+                        <tr>
+                            <td>Bono 10 usos</td>
+                            <td>288,00</td>
+                        </tr>
+                        <tr>
+                            <td>Alquiler para No socio</td>
+                            <td>42,00</td>
+                        </tr>
+
+                        <!-- CAMPO DE BALONCESTO Y VOLEIBOL -->
+                        <tr>
+                            <td rowspan="4">BALONCESTO/VOLEIBOL</td>
+                            <td>Alquiler Campo de Baloncesto/Voleibol por 90 minutos antes de las 18 h</td>
+                            <td>4,00</td>
+                        </tr>
+                        <tr>
+                            <td>Bono 5 usos</td>
+                            <td>18,00</td>
+                        </tr>
+                        <tr>
+                            <td>Bono 10 usos</td>
+                            <td>32,00</td>
+                        </tr>
+                        <tr>
+                            <td>Alquiler para No socio</td>
+                            <td>8,00</td>
+                        </tr>
+                        
+                        <!-- SERVICIOS COMPLEMENTARIOS -->
+                        <tr>
+                            <td rowspan="2">SERVICIOS COMPLEMENTARIOS</td>
+                            <td>Duplicado de Carnet por unidad</td>
+                            <td>3,00</td>
+                        </tr>
+                        <tr>
+                            <td>Gestión Recibos devueltos</td>
+                            <td>6,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Ubicación -->
+            <section class="ubicacion">
+                <h3>Ubicación</h3>
+                <address>Nos encontramos en Calle Deportiva, 123, Ciudad Deportiva, España.</address>
+                <br>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.213308540648!2d-3.617440684692812!3d37.18094697987392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcbf3c5b7e3b%3A0x6b7f7c8b3c5b7e3b!2sEstadio%20de%20la%20Juventud%2C%20Granada!5e0!3m2!1ses!2ses!4v1611810193437!5m2!1ses!2ses" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <p>Desarrollado por Mabilia Stella Rinelli Padron</p>
+            <p>Club Deportivo Bounce Nation</p>
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="como_se_hizo.pdf" target="_blank">Informe: Cómo se hizo</a></li>
+            </ul>
+        </footer>
+        <script src="js/mouse_follow.js"></script>
+        <script src="js/animacion_titulo.js"></script>
+    </body> 
+</html>

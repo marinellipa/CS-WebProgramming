@@ -1,0 +1,76 @@
+/* Formulario */
+main form {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 400px; 
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+
+/* Etiquetas */
+main form label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #006633; 
+}
+
+/* Campos de entrada */
+main form input, progress {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+main form input:focus {
+    border-color: #006633; 
+    box-shadow: 0 0 5px rgba(0, 102, 51, 0.3); 
+}
+
+main form input[type="submit"] {
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #006633;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+main form input[type="submit"]:hover {
+    background-color: #669933;
+    transform: scale(1.05);
+}
+
+main form input[type="reset"] {
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #4a4a4a;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+main form input[type="reset"]:hover {
+    background-color: #a6a6a6;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+        max-width: 90%;
+    }
+}

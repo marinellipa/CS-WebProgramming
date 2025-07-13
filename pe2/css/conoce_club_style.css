@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Sección del plano general */
+.plano-general {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 25px;
+    max-width: 60%;
+}
+
+.plano-general img {
+    height: 400px;
+    width: 392px;
+}
+
+main img {
+    max-width: 50%; 
+    height: 320px;
+    width: 312px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.plano-general p, .plano-general ul {
+    text-align: left; 
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Sección de instalaciones deportivas */
+.instalaciones {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.instalaciones a {
+    margin-top: 0;
+    color: #4d8741;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.instalaciones a:hover {
+    color: #669933;
+    text-decoration: underline;
+    text-decoration-color: #669933;
+}
+
+/* Sección de deportes */
+.deporte {
+    display: flex; 
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px; 
+    padding: 16px;
+    background-color: #fefaf7; 
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}

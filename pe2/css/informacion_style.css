@@ -1,0 +1,94 @@
+.calendarios-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.calendarios-grid section {
+    background-color: #fefaf7; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendarios-grid h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #4d8741; 
+    margin-bottom: 10px;
+    margin-top: 2%;
+}
+
+.dia-abierto {
+    background-color: #bfd9be;
+}
+
+.dia-abierto:hover {
+    background-color: #a8d8a1;
+}
+
+.dia-semi {
+    background-color: #FFB984;
+}
+
+.dia-semi:hover {
+    background-color: #FFA06E;
+}
+
+.dia-cerrado {
+    background-color: #ff9999;
+}
+
+.dia-cerrado:hover {
+    background-color: #ff7f7f;
+}
+
+.leyenda {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 10px; 
+}
+
+.leyenda ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leyenda li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+.leyenda li .color {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.precios h3, .horario-pistas h3 {
+    text-align: center; 
+    font-size: 1.4rem;
+    color: #4d8741; 
+}
+
+.precios tr:nth-child(even), .horario-pistas tr:nth-child(even) {
+    background-color: #fafdf5;
+}
+
+.precios tr:hover, .horario-pistas tr:hover {
+    background-color: #f1f1f1; 
+}

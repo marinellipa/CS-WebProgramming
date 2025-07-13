@@ -1,0 +1,47 @@
+main .eventos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.evento {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #fefaf7; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.evento img {
+    max-width: 100%; 
+    height: 50%;
+    width: 50%;
+    border-radius: 25px; 
+    margin-bottom: 15px;
+}
+
+.evento p {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
+    text-align: left; 
+    width: 100%;
+}
+
+.evento a {
+    margin-top: 1%;
+    text-decoration: none;
+    color: #669933;
+}
+
+.evento a:hover {
+    color: #006633; 
+    text-decoration: underline; 
+}

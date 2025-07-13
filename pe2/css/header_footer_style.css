@@ -1,0 +1,149 @@
+/* Contenedor superior de la cabecera */
+header .top-header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, white, #4d8741);
+    padding: 10px 0;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estilo para el logo */
+header .top-header a img {
+    height: auto;
+    max-height: 60px;
+}
+
+/* Estilo para el formulario de inicio de sesión */
+header .top-header form {
+    gap: 10px;
+    font-size: small;
+    color: white;
+}
+
+/* Estilo para el enlace de alta de usuarios */
+header .top-header form a {
+    font-size: small;
+    margin: auto;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .top-header form a:hover {
+    color:#006633;
+}
+
+header .top-header form input {
+    padding: 3px;
+    width: 120px;
+    font-size: small;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    outline: none; 
+}
+
+header .top-header form input:focus {
+    box-shadow: 0 0 5px rgba(0, 102, 51, 0.5);
+}
+
+header .top-header form button {
+    padding: 3px 8px;
+    font-size: small;
+    background-color: #006633;
+    color: #faeee3;   
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header form button:hover {
+    background-color: #669933;
+    transform: scale(1.05);
+}
+
+
+/* Estilo para el menú de navegación */
+header nav {
+    margin-top: -10px;
+    width: 100%;
+    background-color: #006633; 
+    color: white;
+    padding: 10px 0; 
+    z-index: 0;
+}
+
+/* Estilo para los enlaces del menú */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center; 
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 1px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header nav ul li a:hover {
+    background-color: white; 
+    color: #006633;
+}
+
+header .cerrar-sesion{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #006633; 
+    color: #faeee3;   
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: small;
+    text-decoration: none;
+}
+
+header .cerrar-sesion:hover {
+    background-color: #669933;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #006633; 
+    color: #faeee3; 
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 0.5px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    color: #faeee3;
+    text-decoration: none; 
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #faeee3;
+}

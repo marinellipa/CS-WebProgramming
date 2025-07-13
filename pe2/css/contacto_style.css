@@ -1,0 +1,23 @@
+.datos-desarrollador a {
+    color: black; 
+    text-decoration: none;
+}
+
+.datos-desarrollador a:hover {
+    color: #4d8741;
+}
+
+.formulario-contacto fieldset {
+    border: 1px solid #4d8741; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto legend {
+    font-size: 1rem; 
+    font-weight: bold; 
+    color: #4d8741; 
+    padding: 0 10px; 
+}

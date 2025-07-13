@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Mabilia Stella Rinelli Padron">
+        <meta name="description" content="Documento para Inscripción a un Evento del Club Deportivo">
+
+        <title>Inscripción a Evento | Bounce Nation</title>
+        
+        <!-- Logo en la pestaña -->
+        <link rel="icon" href="imagenes/logo_cuadrado.png" type="image/x-icon">
+        
+        <!-- Enlace a CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header_footer_style.css">
+        <link rel="stylesheet" href="css/inscribirse_style.css">
+
+    </head>
+    <body>
+        <header>
+            <section class="top-header">
+                <!-- Logo del club -->
+                <a href="index.html">
+                    <img src="imagenes/logo_extendido.png" alt="Logo Club Deportivo Bounce Nation" />
+                </a>
+
+                <!-- Formulario de inicio de sesión -->
+                <form action="login.php" method="post">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Entrar</button>
+
+                    <!-- Enlace para alta de usuarios -->
+                    <a href="altausuarios.html" style="margin-left: 20px;">Nuevo Usuario</a>
+                </form>
+
+            </section>
+
+            <!-- Menu de navegacion -->
+            <nav>
+                <ul style="list-style: none; padding: 0; display: flex; gap: 15px;">
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="actividades.php">Actividades</a></li>
+                    <li><a href="conoce_club.html">Conoce Nuestro Club</a></li>
+                    <li><a href="eventos.html">Eventos Deportivos</a></li>
+                    <li><a href="informacion.html">Información General</a></li>
+                    <li><a href="sugerencias.html">Sugerencias</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h3 id="titulo">Formulario de Inscripción</h3>
+                <a href="eventos.html" class="volver-enlace">← Volver a Eventos</a>
+                <form id="form-inscripcion" action="procesar_inscripcion.php" method="post">
+                    <fieldset>
+                        <legend>Datos del evento</legend>
+                        <label for="evento">Selecciona el evento:</label>
+                        <select id="evento" name="evento">
+                            <option value="">-- Selecciona un evento --</option>
+                            <option value="basket_amateur_cup">Basket Amateur Cup</option>
+                            <option value="streetball_challenge">Streetball Challenge 3x3</option>
+                            <option value="torneo_voley_primavera">Torneo Vóley Primavera</option>
+                            <option value="beisbol_young_adult_league">Young Adult League Béisbol</option>
+                            <option value="futbol_liga_femenina">Liga Femenina Fútbol 7</option>
+                            <option value="futbol_infantil_torneo">Torneo Infantil “Pequeños Cracks”</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Datos del participante</legend>
+                        <label for="grupo">Nombre del Equipo:</label>
+                        <input type="text" id="grupo" name="grupo">
+
+                        <label>¿Es la primera vez que participas?</label>
+                        <label>
+                            <input type="radio" name="primera_vez" value="si"> Sí
+                        </label>
+                        <label>
+                            <input type="radio" name="primera_vez" value="no"> No
+                        </label>
+
+                        <label for="edad">Edad:</label>
+                        <input type="text" id="edad" name="edad">
+
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+
+                        <label for="email">Correo electrónico:</label>
+                        <input type="text" id="email" name="email">
+
+                        <label>
+                            <input type="checkbox" id="fotos" name="fotos" value="si">
+                            Autorizo que se me tomen fotos y se publiquen en la página de Bounce Nation
+                        </label>
+                    </fieldset>
+                    <input type="submit" value="Enviar Inscripción" />
+                    <section id="errores" style="color:red; margin-top:10px;"></section>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Desarrollado por Mabilia Stella Rinelli Padron</p>
+            <p>Club Deportivo Bounce Nation</p>
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="como_se_hizo.pdf" target="_blank">Informe: Cómo se hizo</a></li>
+            </ul>
+        </footer>
+        <script src="js/validar_inscripcion.js"></script>
+        <script src="js/mouse_follow.js"></script>
+        <script src="js/animacion_titulo.js"></script>
+    </body>
+</html>

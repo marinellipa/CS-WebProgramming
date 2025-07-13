@@ -1,0 +1,85 @@
+.contenido {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.actividad {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.actividad img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.descripcion-actividad {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; 
+    background: rgba(0, 51, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.descripcion-actividad h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4d8741;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    margin: 0;
+    padding-bottom: 10px; 
+    border: 0px;
+}
+
+.descripcion-actividad p {
+    margin: 0;
+    padding: 1%;
+}
+
+.actividades-relacionadas {
+    width: 20%;
+    background: #fefaf7;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    overflow-y: auto;
+}
+
+.actividades-relacionadas h3 {
+    color: #4d8741; 
+    font-size: 1.5rem; 
+    margin-bottom: 15px; 
+    text-align: center;
+}
+
+.actividades-relacionadas ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.actividades-relacionadas ul li {
+    margin-bottom: 10px;
+}
+
+.actividades-relacionadas ul li a {
+    text-decoration: none; 
+    color: #006633; /* Verde oscuro */
+    font-weight: bold; /* Negrita para resaltar */
+    font-size: 1rem; /* Tamaño del texto */
+    transition: color 0.3s; /* Transición suave al pasar el cursor */
+}
+
+.actividades-relacionadas ul li a:hover {
+    text-decoration: underline; /* Subraya al pasar el cursor */
+    color: #4d8741; /* Cambia a un verde más claro */
+}
