@@ -3,8 +3,8 @@
 **Codename**: `CS-WebProgramming`  
 **Type / Tipo**: Academic  
 
-**Course / Curso**: 24/25 - Programación Web
-**Quarter / Cuatrimestre**: 3rd year 2nd / 3er año 2do
+**Course / Curso**: 24/25 - Programación Web  
+**Quarter / Cuatrimestre**: 3rd year 2nd / 3er año 2do  
 **Grade / Nota**: 9,50/10 (95%)
 
 ---
